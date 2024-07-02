@@ -1,7 +1,7 @@
 +++
 title = 'So_we_begin.init'
 date = 2024-05-31T01:40:34+05:30
-draft = false
+draft = true
 +++
 
 ## The Goal
