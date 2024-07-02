@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AdityaH</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on AdityaH</description>
+    <image>
+      <title>AdityaH</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.128.0</generator>
+    <language>en</language>
+    <copyright>AdityaH</copyright>
+    <lastBuildDate>Fri, 31 May 2024 01:40:34 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So_we_begin.init</title>
+      <link>http://localhost:1313/post/so_we_begin/</link>
+      <pubDate>Fri, 31 May 2024 01:40:34 +0530</pubDate>
+      <guid>http://localhost:1313/post/so_we_begin/</guid>
+      <description>The Goal Along my learning journey, it became clear that there exists &amp;ldquo;hello world&amp;rdquo; tutorial for every conceivable topic in data science, a practice which is counterproductive at best as it obfuscates intricacies and subtleties of the field. What I intend to do here is to move away from the mundane and tackle more obscure challenges.
+As my education progressed, I realized that there are countless &amp;ldquo;hello world&amp;rdquo; examples for data science topics available, a tactic that can be detrimental since it masks the field&amp;rsquo;s complexities.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 30 May 2024 03:04:16 +0530</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hey there! I’m Aditya Hegde, a data scientist with a background in statistics and over three years of experience in tech. I’ve worked in business analysis and intelligence, dealing with robotics enabled e-commerce operations and third party seller seller services, and now I’m diving into the world of unstructured data in the financial sector as a data scientist.
+What to Expect Here I started this blog to share what I’ve learned and to connect with others in the data community.</description>
+    </item>
+  </channel>
+</rss>
