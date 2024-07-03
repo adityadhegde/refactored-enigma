@@ -71,7 +71,7 @@ params:
   socialIcons:
     - name: Instagram
       title: Follow Me on Instagram
-      url: "www.instagram.com/coffee.sipping.bastard"
+      url: "https://www.instagram.com/coffee.sipping.bastard"
     - name: github
       title: View Source on Github
       url: "https://github.com/adityadhegde"
