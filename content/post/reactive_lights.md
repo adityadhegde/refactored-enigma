@@ -13,11 +13,19 @@ So I decided to make some of my own.
 
 Here's what the final product should look like, 	
 
-<iframe width="478" height="849" src="https://www.youtube.com/embed/1Lx_C2iYTV0" title="Finding Nemo but the TV lights REACT! 🤯" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="235" height="424.5" src="https://www.youtube.com/embed/1Lx_C2iYTV0" title="Finding Nemo but the TV lights REACT! 🤯" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 So ofcourse I spent the next entire weekend obsessing over how can I make this happen, while making it as cheap as possible.
 
+## The plan
+
+[!Process_flow](./flow.svg)
+
+1. Use screenshots of what's playing on the media player
+2. 
+
 ## What's required
+
 1. lights ws2812b
 2. Microcontroller
 3. A way to communicate to the microcontroller
