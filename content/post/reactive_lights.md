@@ -19,7 +19,7 @@ So ofcourse I spent the next entire weekend obsessing over how can I make this h
 
 ## The plan
 
-[!Process_flow](./flow.svg)
+[!Process_flow](/images/flow.svg)
 
 1. Use screenshots of what's playing on the media player
 2. 
