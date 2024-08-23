@@ -1,7 +1,7 @@
 +++
-title = 'Reactive Lights and where to find them'
+title = 'Reactive Lights and where to find them. Part 1 of 2'
 date = 2024-08-21T10:47:27+05:30
-draft = false
+draft = true
 +++
 
 # What I want to achieve
@@ -18,7 +18,12 @@ Here's what the final product should look like,
 <iframe width="235" height="424.5" src="https://www.youtube.com/embed/1Lx_C2iYTV0" title="Finding Nemo but the TV lights REACT! 🤯" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-So ofcourse I spent the entire weekend obsessing over how can I make this happen, while making it as cost effective as possible.
+So ofcourse I spent the entire weekend obsessing over how can I make this happen, 
+while making it as cost effective as possible.
+
+Here's what my version looks like.
+
+![placeholder](#)
 
 ## The plan
 
@@ -71,7 +76,25 @@ Here's what the soldered LED will look like
 
 ### Step 2. Attaching the LED strip to the micro-controller
 
+The easy part is putting all this together, all it takes is a couple of jumper cables and a breadboard.
 
+![Pinout](/images/Pinout.png)
+<p style="text-align: center;"><em>Micro-controller Pinout</em></p>
+
+The power pin on the LED strip takes an input of 5volts, which we connect to the 5V output pin 
+on the micro-controller, similary the ground pin on the LED strip connects to the ground pin of the 
+micro-controller. The "Din" data input pin on the micro-controller connects to any of the 
+general purpose IO pins labels from D0 to D10 on the micro-controller. Make a note of which data pin 
+you use.
+
+![Assembled Breadboard](/images/assemby.jpeg)
+<p style="text-align: center;"><em>Assembled Breadboard</em></p>
+
+**Note:** If you are using a larger number of lights running on full brightness you should consider 
+powering the LED strip using an external power source to ensure you don't fry your micro-controller.
+
+## Closing thoughts
+This post takes us through the hardware setup. In the next one I discuss the software implementation.
 
 ## How to communicate with the microcontroller over the Wifi
 ### Setting up the microcontroller with micropython
