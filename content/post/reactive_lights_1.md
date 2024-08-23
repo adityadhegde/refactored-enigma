@@ -87,7 +87,7 @@ micro-controller. The "Din" data input pin on the micro-controller connects to a
 general purpose IO pins labels from D0 to D10 on the micro-controller. Make a note of which data pin 
 you use.
 
-![Assembled Breadboard](/images/assemby.jpeg)
+![Assembled Breadboard](/images/assembly.jpeg)
 <p style="text-align: center;"><em>Assembled Breadboard</em></p>
 
 **Note:** If you are using a larger number of lights running on full brightness you should consider 
