@@ -59,6 +59,7 @@ it was much like putting together lego blocks.
 ### Step 1. Setup the LED strip
 
 ![A single LED from the Strip](/images/LED.jpeg)
+<p style="text-align: center;"><em>A single LED from the strip</em></p>
 
 As mentioned earlier the WS2812b has three pins, the 5volt power pin, a Data Input(Din) pin, and a ground(Gnd) pin. I used 
 jumper cables given the micro-controller and the LED strip would be put together using a breadboard.
@@ -66,10 +67,9 @@ jumper cables given the micro-controller and the LED strip would be put together
 Here's what the soldered LED will look like
 
 ![Soldered LED](/images/LED_soldered.jpeg)
+<p style="text-align: center;"><em>Soldered LED</em></p>
 
 ### Step 2. Attaching the LED strip to the micro-controller
-
-
 
 
 
