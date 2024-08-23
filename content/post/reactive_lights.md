@@ -41,10 +41,10 @@ able to put together the following list
 #### 1. Strip of 60 WS2812b controllable LED lights
 These are compact three pin LEDs which are easy to power and used extensively in DIY projects making them widely supported.
  
-#### 2. Xiao seediuno ESP32-C6 Micro-controller
-ESP32 is a solid platform which has WiFi6 and Bluetooth connectivity, plenty of GPIO Pins, and micropython support. Xiao's Seediuno 
-tiny form factor makes it an ideal choice given my limited desk space. It also boasts a USB-C input jack so it can be powered using 
-a normal phone charger.
+#### 2. Xiao Seeed Studio ESP32-C6 Micro-controller
+ESP32 is a solid platform which has WiFi6 and Bluetooth connectivity, plenty of GPIO Pins, and micropython support. Xiao Seeed 
+studio's tiny form factor makes it an ideal choice given my limited desk space. It also boasts a USB-C input jack so it can be powered using 
+a mobile phone charger.
 
 #### 3. A way to Decode what's on the screen
 Just like all great things we start small here limiting ourselves to a single media player namely [VLC](https://www.videolan.org/vlc/). 
@@ -53,8 +53,25 @@ then easily read the screenshot from the disk and process it using python and se
 over the WiFi connection.
 
 ## Hardware side of things
-How to connect the lights to the micro controller
-How to power the micro controller 
+This part turned out to be more straight forward than I expected, barring the bits which required some soldering
+it was much like putting together lego blocks. 
+
+### Step 1. Setup the LED strip
+
+![A single LED from the Strip](/images/LED.jpeg)
+
+As mentioned earlier the WS2812b has three pins, the 5volt power pin, a Data Input(Din) pin, and a ground(Gnd) pin. I used 
+jumper cables given the micro-controller and the LED strip would be put together using a breadboard.
+
+Here's what the soldered LED will look like
+
+![Soldered LED](/images/LED_soldered.jpeg)
+
+### Step 2. Attaching the LED strip to the micro-controller
+
+
+
+
 
 ## How to communicate with the microcontroller over the Wifi
 ### Setting up the microcontroller with micropython
