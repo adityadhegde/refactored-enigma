@@ -31,9 +31,9 @@ Here's what my version looks like.
 
 So roughly I need to do the following:
 
-    1. Capture a screenshot of what's playing
-    2. Analyse the image and turn it into colors which represent it
-    3. Send it over to a micro controller which controls a LED strip
+1. Capture a screenshot of what's playing
+2. Analyse the image and turn it into colors which represent it
+3. Send it over to a micro controller which controls a LED strip
 
 ![Process_flow](/images/flow.svg)
 
